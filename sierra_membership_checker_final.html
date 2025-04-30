@@ -42,7 +42,7 @@
     }
 
     async function geocodeAddress(fullAddress) {
-      const apiKey = 'AIzaSyDUI4cgBXsQou6ZZLLb1G4aWLbF7GZz5WY';  // Replace with your real key
+      const apiKey = 'AIzaSyASrMRnEOesaI5CjiyMkTvFIWwIVHkfOrM' ;  // Replace with your real key
       const url = `https://maps.googleapis.com/maps/api/geocode/json?address=${encodeURIComponent(fullAddress)}&key=${apiKey}`;
       const res = await fetch(url);
       const data = await res.json();
